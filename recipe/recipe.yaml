@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.28.3"
+  version: "1.28.4"
 
 package:
   name: gst-plugins-ugly
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-${{ version }}.tar.xz
-  sha256: 0c04763200467b9b61a916b33646a6916a97cc9869d8b6dca57427b1f2734dee
+  sha256: 5486cd145c5af43259fd37caca59d048e2a67ddb07082ea8f50ef0f02a85f8a5
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
